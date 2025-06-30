@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+     <link rel="stylesheet" href="cart.css">
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+     <header>
+        <div class="navbar">
+            <div class="navbar-logo">
+                <img src="pics/logo.png">
+            </div>
+            <div class="navlinks" id="navlinks">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="recipes.html" >Recipes</a></li>
+                <li><a href="gallery.html" >Gallery<a></li>
+                <li>
+                    <a href="">Reservation  <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="reservation.html">Reservation</a> </li>
+                    <li><a href="cart.html">Cart</a> </li>
+                    <li><a href="shipping.html">Shipping</a> </li>
+                    <li><a href="payment.html">Payment</a> </li>
+                    <li><a href="confirmation.html">Confirmation</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Blog <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="">Blog Single</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+            <div class="mobile-toggle" id="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-section">
+        <div class="container">
+            <h1 >Cart Page</h1>
+        </div>
+    </div>
+
+    <div class="cart-section">
+        <div class="cart-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><img src="pics/popular-sm-3.jpg">Lemon Rosemary Chicken</th>
+                        <td>$ 79.00</td>
+                        <td class="qtn">
+                            <i class="fa-solid fa-minus"></i>
+                            <input type="text" value="1">
+                            <i class="fa-solid fa-plus"></i>
+                        </td>
+                        <td>$ 79.00</td>
+                        <td class="dlt"><i class="fa-solid fa-xmark"></i></td>
+                    </tr>
+                     <tr>
+                        <th><img src="pics/popular-sm-3.jpg">Seasonal Soup</th>
+                        <td>$ 79.00</td>
+                        <td class="qtn">
+                            <i class="fa-solid fa-minus"></i>
+                            <input type="text" value="1">
+                            <i class="fa-solid fa-plus"></i>
+                        </td>
+                        <td>$ 79.00</td>
+                        <td class="dlt"><i class="fa-solid fa-xmark"></i></td>
+                    </tr>
+                     <tr>
+                        <th><img src="pics/popular-sm-3.jpg">Pizza Pane</th>
+                        <td>$ 79.00</td>
+                        <td class="qtn">
+                            <i class="fa-solid fa-minus"></i>
+                            <input type="text" value="1">
+                            <i class="fa-solid fa-plus"></i>
+                        </td>
+                        <td>$ 79.00</td>
+                        <td class="dlt"><i class="fa-solid fa-xmark"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="coupon">
+                            <input type="text" placeholder="Enter your coupon">
+                            <a href="#">Apply Coupon</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="upd-cart">
+                            <a href="#">Update Cart</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="order-detail">
+           <div class="detail">
+                <h2>Order Summery</h2>
+                <p>Excepteur sint occaecat cupidat non proident sunt officia.</p>
+                <div class="order-txt">
+                    <h4>Subtotal</h4>
+                    <span>$ 237.00</span>
+                </div>
+                <div class="order-txt">
+                    <h4>Shipping & Handling</h4>
+                    <span>$ 0</span>
+                </div>
+                <div class="order-txt">
+                    <h4>Estimated Tax</h4>
+                    <span>$ 0</span>
+                </div>
+                <div class="order-txt">
+                    <h4>Grand Total</h4>
+                    <h4>USD $237.00</h4>
+                </div>
+           </div>
+           <a href="shipping.html">proceed to checkout</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-cards">
+            <div class="ft-card">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, nam!</p>
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-solid fa-globe"></i></a>
+                    <a href=""><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+            </div>
+            <div class="ft-card">
+                <h3>Contact Info</h3>
+                <p> +1 987 654 3210</p>
+                <p>mail@support.com</p>
+                <p>1234 Altschul, New York,NY 10027-0000</p>
+            </div>
+            <div class="ft-card">
+                <h3>Opening Hours</h3>
+                <p>Monday - Thursday</p>
+                <h3>10:00 AM - 11:00 PM</h3>
+                <p>Friday - Sunday</p>
+                <h3>12:00 AM - 03:00 AM</h3>
+            </div>
+        </div>
+        <div class="ft-email">
+            <div class="email-txt">
+                <h3>Get latest food recipe at your inbox</h3>
+                <input type="email" placeholder="Enter Email" class="email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+
+        <div class="ft-bottom">
+            <div class="bottom-txt">
+                <p>Copyright © 2019 a theme by themefisher.com</p>
+            </div>
+            <div class="ft-links">
+                <a href="">Home</a>
+                <a href="">About US</a>
+                <a href="">Gallery</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Use of terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
