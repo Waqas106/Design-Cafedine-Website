@@ -418,7 +418,7 @@ footer{
 
 @media (max-width: 480px){
     .main-txt h1{
-        font-size: 2.3rem;
+        font-size: 2.1rem;
     }
 
     .book-txt h1{
@@ -426,6 +426,16 @@ footer{
     }
 
     .sub-title{
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+    .card{
+        padding: 15px;
+    }
+    .card img{
+        width: 300px;
+        border-radius: 12px;
+    }
+    .mobile{
+        height: 500px;
     }
 }
