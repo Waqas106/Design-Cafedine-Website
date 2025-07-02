@@ -239,7 +239,7 @@ footer{
     }
 
     .sub-title{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .pics-txt{
@@ -247,5 +247,11 @@ footer{
     }
     .pics-txt p{
         padding: 0;
+    }
+    .pic-card{
+        width: 330px;
+    }
+    .pic img{
+        width: 350px;
     }
 }
