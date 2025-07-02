@@ -285,6 +285,20 @@ footer{
     }
 
     .sub-title{
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+    .card{
+        width: 300px;
+    }
+    .btns{
+        gap: 35px;
+    }
+    .dsh-cards{
+        padding: 0 1rem;
+        margin: 0;
+    }
+    .dsh-card img{
+        width: 100px;
+        /* height: 150px; */
     }
 }
