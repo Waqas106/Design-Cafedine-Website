@@ -367,6 +367,18 @@ footer{
     }
 
     .sub-title{
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+    .pic1{
+        width: 280px;
+        border-radius: 12px;
+    }
+    .pic2{
+        width: 330px;
+        border-radius: 12px;
+    }
+    .chf-card{
+        width: 300px;
+        padding: 10px;
     }
 }
